@@ -1,0 +1,172 @@
+here<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rima Ethical – Halal Motivational Token</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="hero">
+        <h1 class="brand">RIMA ETHICAL</h1>
+        <p class="tagline">A Halal-Inspired Motivational Token for Growth, Purpose & Prosperity</p>
+    </header>
+
+    <!-- Mission Section -->
+    <section class="mission elegant-box">
+        <h2>Our Mission</h2>
+        <p>
+            Rima Ethical is built on Islamic values — honesty, fairness, charity and empowerment.  
+            This token is made to inspire you, motivate you, and push you to become the highest version of yourself while staying aligned with halal principles.
+        </p>
+    </section>
+
+    <!-- Tokenomics -->
+    <section class="tokenomics elegant-box">
+        <h2>Token Structure</h2>
+        <p class="highlight">✨ 5% of every supply goes directly to charity (Sadaqah) ✨</p>
+        <p>
+            Giving is a blessing. We believe wealth is purified when shared, and every transaction moves us closer to helping more people.
+        </p>
+    </section>
+
+    <!-- Motivational Quotes -->
+    <section class="quotes section-stars">
+        <h2>Motivational Energy</h2>
+
+        <div class="quote">“Allah will not change the condition of a people until they change what is within themselves.”</div>
+
+        <div class="quote">“Your risk is written. Your success is written. Walk with faith and grind with purpose.”</div>
+
+        <div class="quote">“If you knew how close you were to your breakthrough, you would never stop.”</div>
+
+        <div class="quote">“Move with intention, speak with gratitude, and work with discipline — success will follow.”</div>
+    </section>
+
+    <!-- Social -->
+    <section class="social elegant-box">
+        <h2>Connect With Us</h2>
+        <a class="x-btn" href="https://x.com/RimaEthical" target="_blank">Follow us on X</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Rima Ethical – Halal Motivational Token</p>
+    </footer>
+
+</body>
+</html>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0a0a0a;
+    color: white;
+    padding: 20px;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.brand {
+    font-size: 45px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #c0c0c0, #d4af37, #c0c0c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tagline {
+    margin-top: 15px;
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+/* Elegant Box */
+.elegant-box {
+    background: radial-gradient(circle, #1a1a1a, #0e0e0e);
+    border: 1px solid #3b3b3b;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 30px 0;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.05);
+}
+
+.elegant-box h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, silver, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Tokenomics Highlight */
+.highlight {
+    font-size: 18px;
+    color: #d4af37;
+    font-weight: bold;
+}
+
+/* Quotes Section */
+.quotes {
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.section-stars {
+    background: linear-gradient(145deg, #111, #0c0c0c);
+    position: relative;
+}
+
+.section-stars::before {
+    content: "✦ ✧ ✦ ✧ ✦";
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    font-size: 20px;
+    opacity: 0.3;
+}
+
+.quote {
+    border-left: 3px solid gold;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+}
+
+/* Social Button */
+.x-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(90deg, #d4af37, #c0c0c0);
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.x-btn:hover {
+    opacity: 0.85;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    opacity: 0.7;
+    font-size: 14px;
+}
